@@ -1,21 +1,25 @@
+import React from 'react'
+import styled from 'styled-components'
+import { GlobalCSS } from './globalstyle'
+import HeroBanner from './components/HeroBanner'
+import Menu from './components/header/Menu'
+import Body from './components/Body'
+
+
+const AppContainer = styled.div`
+  background-color: black; // Fundo escuro para contraste
+  height: 100vh;
+`;
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <GlobalCSS/>
+      <Menu/>    
+        <HeroBanner/>
+        <Body/>
+    </>
   )
 }
 
