@@ -14,4 +14,12 @@ export const GlobalCSS = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'SystemFont', sans-serif
   }
+
+  body{
+    cursor: url('./cursors/cursor.svg'), auto;
+  }
+  
+  a{
+    cursor: url('./cursors/cursorpointer.svg'), auto;
+  }
 `
