@@ -1,5 +1,5 @@
-import React from 'react';
-import { MenuContainer, MenuItem, MenuWrapper } from './styled';
+import React from 'react'
+import { MenuContainer, MenuItem, MenuWrapper } from './styled'
 
 const Menu = () => {
   return (
@@ -11,7 +11,7 @@ const Menu = () => {
         <MenuItem href="#contact">Contact</MenuItem>
       </MenuContainer>
     </MenuWrapper>
-  );
-};
+  )
+}
 
-export default Menu;
+export default Menu
