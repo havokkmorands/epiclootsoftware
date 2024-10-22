@@ -18,8 +18,9 @@ export const Image = styled.div`
 `;
 
 export const HeroContainer = styled.div`
-  position: absolute;
+  position: relative;
   bottom: 0;
+  top: 70%;
   left: 10%;
   display: flex;
   width: 40%;

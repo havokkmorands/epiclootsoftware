@@ -17,9 +17,11 @@ export const GlobalCSS = createGlobalStyle`
 
   body{
     cursor: url('./cursors/cursor.svg'), auto;
+    background: url('./background/background.jpg');
+    background-size: cover;
   }
   
-  a{
+  a {
     cursor: url('./cursors/cursorpointer.svg'), auto;
   }
 `

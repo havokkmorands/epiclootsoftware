@@ -4,6 +4,7 @@ import { GlobalCSS } from './globalstyle'
 import HeroBanner from './components/HeroBanner'
 import Menu from './components/header/Menu'
 import Body from './components/Body'
+import Container from './components/fixedcontainer'
 
 
 const AppContainer = styled.div`
@@ -16,9 +17,11 @@ function App() {
   return (
     <>
     <GlobalCSS/>
-      <Menu/>    
+      <Menu/>
+        <Container>  
         <HeroBanner/>
         <Body/>
+        </Container>  
     </>
   )
 }
