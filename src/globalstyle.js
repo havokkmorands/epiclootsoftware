@@ -15,6 +15,13 @@ export const GlobalCSS = createGlobalStyle`
     font-family: 'SystemFont', sans-serif
   }
 
+  h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+  }
+
   body{
     cursor: url('./cursors/cursor.svg'), auto;
     background: url('./background/background.jpg');
