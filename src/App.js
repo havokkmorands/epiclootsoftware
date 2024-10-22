@@ -5,6 +5,8 @@ import HeroBanner from './components/HeroBanner'
 import Menu from './components/header/Menu'
 import Body from './components/Body'
 import Container from './components/fixedcontainer'
+import About from './components/about'
+import risca from './assets/images/misc/risca.webp'
 
 
 const AppContainer = styled.div`
@@ -20,7 +22,10 @@ function App() {
       <Menu/>
         <Container>  
         <HeroBanner/>
-        <Body/>
+        <h1>About us</h1>
+        <About reverse={false} text="Lorem bla bla bla." image={risca} />
+        <About reverse={true} text="Lorem pipipi pópópó." image={risca} />
+        <About reverse={false} text="Lorem bla bla bla." image={risca} />
         </Container>  
     </>
   )

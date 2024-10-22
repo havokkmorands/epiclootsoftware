@@ -32,5 +32,5 @@ export const HeroContainer = styled.div`
 
 export const HeroText = styled.p`
   color: white;
-  font-size: 3.1vh;
+  font-size: 2.1vh;
 `
