@@ -8,6 +8,7 @@ import Container from './components/fixedcontainer'
 import About from './components/about'
 import risca from './assets/images/misc/risca.webp'
 import Team from './components/team'
+import Footer from './components/footer'
 
 
 const AppContainer = styled.div`
@@ -31,7 +32,9 @@ function App() {
         <h1>Our team</h1>
         </div>        
         <Team></Team>
-        </Container>  
+        <Footer />  
+        </Container>
+        
     </>
   )
 }
