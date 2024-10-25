@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const ListContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   padding: 20px;
   width: 100%;
   height: auto;
@@ -24,6 +25,7 @@ export const ListItem = styled.div`
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 8px;
   }
 
   @media (max-width: 768px) {
